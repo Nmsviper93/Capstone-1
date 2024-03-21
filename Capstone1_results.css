@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: bold;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+strong {
+    font-size: large;
+}
+
+ul {
+    list-style: none;
+    margin: 9px;
+}
+
+li {
+    margin: 8px;
+}
+
+/* option {
+    list-style: none;
+} */
+
+
+
+/* image links
+Italy: https://vineyards.com/photos/maps/Italy%20Wine%20Map.png
+France: https://vineyards.com/photos/maps/France%20Wine%20Map.png 
+South Africa: https://vineyards.com/photos/maps/South%20Africa%20Wine%20Map.png
+USA: https://vineyards.com/photos/maps/California%20Wine%20Regions%20Map.png */
