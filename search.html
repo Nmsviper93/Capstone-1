@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/search.css">
+    <title>Wine Search</title>
+</head>
+<body>
+    <h1>Search for Wines</h1>
+    <form action="/results" method="GET">
+        <label for="type" class="type">Type:</label>
+        <select id="type" name="type">
+            <option value="sparkling">Sparkling</option>
+            <option value="rose">Rosé</option>
+            <option value="whites">White</option>
+            <option value="reds">Red</option>
+            <option value="dessert">Dessert</option>
+            <option value="port">Port</option>
+        </select>
+        <br>
+        <label for="country" class="country">Country:</label>
+        <select id="country" name="country">
+            <option value="">Any</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Australia">Australia</option>
+            <option value="Chile">Chile</option>
+            <option value="France">France</option>
+            <option value="Italy">Italy</option>
+            <option value="Germany">Germany</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Spain">Spain</option>
+            <option value="South Africa">South Africa</option>
+            <option value="United States">United States</option>
+        </select>
+        <br>
+        <label for="rating" class="rating">Rating:</label>
+        <input type="number" id="rating" name="rating" min="1" max="5">
+        <br><br>
+        <input type="submit" value="Search">
+    </form>
+    <div class="cellar-container">
+        <img src="https://www.glenviewhaus.com/portfolio/wine-cellars/collections/900/Custom-Wine-Cellar2.jpg" alt="wine cellar">
+    </div>
+</body>
+</html>
+
+
+
+<!-- https://www.glenviewhaus.com/portfolio/wine-cellars/collections/900/Custom-Wine-Cellar2.jpg -->
