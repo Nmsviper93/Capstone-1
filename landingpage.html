@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome to Wine Wanderer{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='landing.css') }}">
+<h2>Welcome to the Wine Wanderer App</h2>
+<div class="container">
+    <img src="https://vineyards.com/photos/maps/Italy%20Wine%20Map.png" alt="Italy" class="small-image">
+    <img src="https://vineyards.com/photos/maps/California%20Wine%20Regions%20Map.png" alt="California" class="small-image">
+    <img src="https://vineyards.com/photos/maps/France%20Wine%20Map.png" alt="France" class="small-image">
+</div>
+<p>Search for your favorite wines!</p>
+<a href="{{ url_for('search') }}">Start Searching</a>
+<div class="container">
+    <img src="https://yourwineracksandcooling.com/wp-content/uploads/2022/04/121326-2.jpg" alt="wine display" class="small-image">
+</div>
+{% endblock %}
+
+
+
+
+
+
+
+<!-- /* image links
+Italy: https://vineyards.com/photos/maps/Italy%20Wine%20Map.png
+France: https://vineyards.com/photos/maps/France%20Wine%20Map.png 
+South Africa: https://vineyards.com/photos/maps/South%20Africa%20Wine%20Map.png
+USA: https://vineyards.com/photos/maps/California%20Wine%20Regions%20Map.png */ -->
